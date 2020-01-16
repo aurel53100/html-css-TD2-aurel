@@ -1,0 +1,62 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#wrapper {
+    __ 
+}
+
+#header {
+    __
+    __
+}
+
+#banner{
+    __
+    __
+}
+
+#circle-container{
+    __
+    __
+    __   
+}
+
+#grid-container::after,
+#circle-container::after 
+  {
+    content:" ";
+    display: block;  
+    clear: both;  
+}
+
+.circle {
+    __
+    __
+    __
+    __
+    __
+    __
+    __
+}
+
+#grid-container {
+    __
+    __
+    __
+}
+
+.box {
+    __
+    __
+    __
+    __
+    __
+}
+
+#footer {
+    __
+    __
+    __
+}

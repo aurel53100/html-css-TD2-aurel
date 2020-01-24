@@ -1,0 +1,93 @@
+/* par défaut les marges et les padding sont nuls */
+* { margin:0;   
+    padding:0; 
+}
+
+#wrapper {
+   border:1px solid grey;
+   width: 720px;
+   padding:10px;
+   margin-left: 5px;
+
+	
+	/* bordure de en couleur grise;  */
+    /* padding de 10 pixel  */
+}
+
+#header {
+	background-color: blue;
+	height : 100px;
+	width : 700px;
+	padding: 10px;
+    /* hauteur de 100 pixel;  */
+    /* couleur de fond selon le dessin fourni  */
+    /* padding de 10 pixel  */
+} 
+
+#logo {
+	height : 80px ;
+	width : 150px ;
+	background-color: orange;
+	
+	
+     /* même hauteur que le header (entête);  */ 
+    /* largeur de 150 pixel  */
+   /* couleur de fond selon le dessin fourni  */
+}
+
+#navbar {
+	height: 50px;
+	background-color: yellow;
+	margin: 10px 0px;
+    /* hauteur de 50 pixels;  */
+    /* couleur de fond selon le dessin fourni  */
+    /* marge haute de 10 pixel */
+}
+
+#container { 
+	border: 1px solid grey;
+	padding: 10px;
+	/*border:1px solid;*/ 
+    /* marge haute idem que la barre de navigation */
+}
+
+/* ce ci est nécessaire après utilisation de blocs flottants */
+#container::after{
+    content:""; 
+    display: block; 
+    clear: both
+}
+
+#left-panel {
+	height: 600px;
+	background-color: lightblue;
+	width: 25%;
+	float: left;
+	
+	
+    /* hauteur de 600 pixels;  */
+    /* couleur de fond selon le dessin fourni  */
+    /* largeur de 25%  */
+    /* flottant à gauche */
+}
+
+#right-content{
+	width: 75%;
+	background-color: pink;
+	height: 600px;
+	float: right;
+	
+	 /* largeur de 75% normalement, réajuster si besoin */
+    /* couleur de fond selon le dessin fourni  */
+    /* hauteur comme left-pannel  */
+    /* flottant à droite */
+}
+
+#footer {
+	height: 50px;
+	background-color:CadetBlue;
+	margin:10px;
+    /* hauteur comme left-pannel  */
+   /* couleur de fond selon le dessin fourni  */
+    /* marge haute de 10 pixel */
+}
